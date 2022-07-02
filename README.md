@@ -1,4 +1,4 @@
-# Fund-screening
+# Fund-screening-sorting-weighting
 Via TIanTian Fund, TongHuaShun iFund, and Alipay, to collect funds data, and through feature engineering to sort funds, and to form weights of chosen dunds
 
 由于公募基金有超过1万支，一个一个筛选太费时费力，本方法就以支付宝、天天基金、同花顺爱基金、国元证券、平安爱基金等基金销售平台推荐的基金为基础，对这些基金的评分数据进行统计、数值变换、排序筛选，可以得到当前各个基金的持仓权重。并可等待每季度基金公布持仓数据后，重新做一遍上述流程：即更新推荐基金、对基金评分数据进行重新统计、数值变换、排序筛选、计算权重，此时新权重和现有持仓权重一定或多或少地存在偏差，则可进行买卖操作将持仓调整为当前新一期的权重。类似于股票指数的调整流程，定期对构建的个性化基金指数进行调整。
